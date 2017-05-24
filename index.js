@@ -1,6 +1,6 @@
 const isOnline = require('is-online');
 var twilio = require('twilio');
-var client = new twilio('id','token');
+var client = new twilio('id','token'); //id is twilio id and token is twilio token 
 var count = 0;
 setInterval(function(){
 isOnline().then(online => {
